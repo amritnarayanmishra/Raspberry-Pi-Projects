@@ -1,0 +1,40 @@
+⭐ What this project does?
+Simulates a traffic light with 3 LEDs (Red, Yellow, Green).
+
+🧰 Hardware Used
+
+Raspberry Pi 4
+
+3× LEDs (Red, Yellow, Green)
+
+3× 220Ω resistors
+
+🔌 Circuit Connection
+
+GPIO17 → Red LED
+
+GPIO27 → Yellow LED
+
+GPIO22 → Green LED
+
+GND → All LED negatives via resistors
+
+💻 Software & Tools
+
+Thonny IDE
+
+📚 Python Libraries Required
+
+RPi.GPIO, time
+
+🧠 How it works?
+
+Red ON → wait 3s
+
+Green ON → wait 3s
+
+Yellow ON → wait 1s → repeat
+
+🚀 How to Run
+
+Run code → Observe LED sequence

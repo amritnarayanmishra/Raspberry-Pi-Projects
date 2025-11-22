@@ -1,0 +1,36 @@
+⭐ What this project does?
+Measures distance using HC-SR04 sensor and prints in terminal.
+
+🧰 Hardware Used
+
+Raspberry Pi 4
+
+HC-SR04 Ultrasonic Sensor
+
+Jumper wires
+
+🔌 Circuit Connection
+
+TRIG → GPIO23
+
+ECHO → GPIO24
+
+VCC → 5V
+
+GND → GND
+
+💻 Software & Tools
+
+Thonny IDE
+
+📚 Python Libraries Required
+
+RPi.GPIO, time
+
+🧠 How it works?
+
+Send trigger pulse → Measure echo duration → Calculate distance
+
+🚀 How to Run
+
+Run code → Distance prints every second

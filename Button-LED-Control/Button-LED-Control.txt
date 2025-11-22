@@ -1,0 +1,42 @@
+⭐ What this project does?
+Turns LED ON/OFF using a push button.
+
+🧰 Hardware Used
+
+Raspberry Pi 4
+
+1× LED
+
+1× Push Button
+
+220Ω resistor
+
+Breadboard + Jumper Wires
+
+🔌 Circuit Connection
+
+GPIO17 → LED Positive → 220Ω → GND
+
+GPIO18 → Button → GND
+
+💻 Software & Tools
+
+Thonny IDE / Raspberry Pi OS
+
+📚 Python Libraries Required
+
+RPi.GPIO, time
+
+🧠 How it works?
+
+Button press → LED ON
+
+Button release → LED OFF
+
+🚀 How to Run
+
+Run code in Thonny → Press button → LED responds
+
+📝 Tips
+
+Proper pull-down setup for button

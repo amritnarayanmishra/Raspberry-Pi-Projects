@@ -1,0 +1,36 @@
+⭐ What this project does?
+Reads temperature & humidity from DHT11 sensor and displays on terminal.
+
+🧰 Hardware Used
+
+Raspberry Pi 4
+
+DHT11 Sensor
+
+10kΩ pull-up resistor
+
+Jumper wires
+
+🔌 Circuit Connection
+
+DHT11 Data → GPIO17
+
+VCC → 3.3V
+
+GND → GND
+
+💻 Software & Tools
+
+Thonny IDE
+
+📚 Python Libraries Required
+
+Adafruit_DHT
+
+🧠 How it works?
+
+Read DHT11 every 2s → Print temp & humidity
+
+🚀 How to Run
+
+Run code → Observe temperature & humidity

@@ -1,0 +1,44 @@
+⭐ What this project does?
+Alerts with LEDs and buzzer when object is too close.
+
+🧰 Hardware Used
+
+Raspberry Pi 4
+
+HC-SR04 Ultrasonic
+
+3× LEDs
+
+Buzzer
+
+Resistors & Wires
+
+🔌 Circuit Connection
+
+LEDs → GPIO17, GPIO27, GPIO22
+
+Buzzer → GPIO18
+
+Ultrasonic → GPIO23, GPIO24
+
+💻 Software & Tools
+
+Thonny IDE
+
+📚 Python Libraries Required
+
+RPi.GPIO, time
+
+🧠 How it works?
+
+Measure distance →
+
+<10cm → LED1+Buzzer ON
+
+10–20cm → LED2 ON
+
+20cm → LED3 ON
+
+🚀 How to Run
+
+Run code → Move hand/objects → LEDs + buzzer respond

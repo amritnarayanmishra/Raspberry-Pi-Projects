@@ -1,0 +1,41 @@
+⭐ What this project does?
+Makes an LED blink continuously using Python and GPIO pins.
+
+🧰 Hardware Used
+
+Raspberry Pi 4
+
+1× LED
+
+1× 220Ω resistor
+
+Breadboard + Jumper Wires
+
+🔌 Circuit Connection
+
+GPIO17 (Pin 11) → LED Positive (long leg)
+
+GND → LED Negative via 220Ω resistor
+
+💻 Software & Tools
+
+Thonny IDE / Raspberry Pi OS
+
+📚 Python Libraries Required
+
+RPi.GPIO, time
+
+🧠 How it works?
+Turns LED ON → waits 1s → OFF → waits 1s → repeats until CTRL + C.
+
+🚀 How to Run
+
+Paste code in Thonny → Run → LED blinks
+
+Stop with CTRL + C
+
+📝 Tips
+
+Check GPIO pin numbers
+
+Proper resistor connection prevents LED damage

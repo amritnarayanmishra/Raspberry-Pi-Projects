@@ -1,0 +1,38 @@
+⭐ What this project does?
+Reads DHT11 temperature & humidity and sends to ThingSpeak cloud.
+
+🧰 Hardware Used
+
+Raspberry Pi 4
+
+DHT11 Sensor
+
+Jumper wires
+
+Wi-Fi Internet
+
+🔌 Circuit Connection
+
+DHT11 Data → GPIO17
+
+VCC → 3.3V
+
+GND → GND
+
+💻 Software & Tools
+
+Thonny IDE
+
+📚 Python Libraries Required
+
+Adafruit_DHT, requests, time
+
+🧠 How it works?
+
+Read sensor → Send HTTP GET request to ThingSpeak → Data updates live
+
+🚀 How to Run
+
+Replace THINGSPEAK_API_KEY with your key
+
+Run code → Check ThingSpeak channel

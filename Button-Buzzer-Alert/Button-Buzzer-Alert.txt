@@ -1,0 +1,33 @@
+⭐ What this project does?
+Buzzer sounds when button is pressed.
+
+🧰 Hardware Used
+
+Raspberry Pi 4
+
+Buzzer
+
+Push Button
+
+Jumper wires
+
+🔌 Circuit Connection
+
+GPIO17 → Buzzer + GND
+
+GPIO18 → Button + GND
+
+💻 Software & Tools
+
+Thonny IDE
+
+📚 Python Libraries Required
+
+RPi.GPIO, time
+
+🧠 How it works?
+Button press → Buzzer ON → release → Buzzer OFF
+
+🚀 How to Run
+
+Run code → Press button → Buzzer sounds
